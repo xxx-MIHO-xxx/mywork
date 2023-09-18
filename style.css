@@ -17,9 +17,11 @@ a {
   display: inline-block;
 }
 
-li {
+ul {
   list-style: none;
   list-style-position: inside;
+  margin: 0;
+  padding-left: 0;
 }
 
 h2 {
@@ -197,6 +199,9 @@ small {
     text-align: center;
   }
 
+  .menu {
+    margin: 0 auto;
+  }
 
   /* main */
 
